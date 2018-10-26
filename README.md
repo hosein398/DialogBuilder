@@ -17,7 +17,7 @@ DialogBuilder is simple library for show easily custom AlertDialog and BottomShe
 
 In your gradle project :
 
-```
+```xml
 allprojects {
     repositories {
         maven { url 'https://jitpack.io' }
@@ -26,7 +26,7 @@ allprojects {
 ```
 In your gradle module :
 
-```
+```xml
 implementation 'com.github.hosein398:DialogBuilder:0.1.0'
 ```
 
@@ -34,20 +34,20 @@ implementation 'com.github.hosein398:DialogBuilder:0.1.0'
 
 you can use DialogBuilder very easy , create object from DialogBuilder like this:
 
-```
+```java
 DialogBuilder dialogBuilder = new DialogBuilder(this).asAlertDialog(true);
 or
 DialogBuilder dialogBuilder = new DialogBuilder(this).asBottomSheetDialog(true);
 ```
 You can set message and title for your dialog :
 
-```
+```java
 dialogBuilder.setMessage("Your message");
 dialogBuilder.setTitle("Your Title");
 ```
 
 And you can add Positive and Negative Button for dialog :
-```
+```java
 dialogBuilder.setPositiveButton("Ok", new DialogBuilder.OnClickListener() {
             @Override
             public void onClick(Dialog dialog) {
@@ -63,11 +63,11 @@ dialogBuilder.setNegativeButton("Cancel", new DialogBuilder.OnClickListener() {
         });
 ```
 And end you should call show() method:
-```
+```java
 dialogBuilder.show();
 ```
 If you want set custom view in your dialog you can do it very easily :
-```
+```java
 EditText editText = new EditText(this);
 editText.setHint("Phone number");
 editText.setTextSize(16);
@@ -78,9 +78,9 @@ dialogBuilder.setCustomView(editText); // Your custom view
 ## Config
 
 You can change default config by DialogBuilderConfig , you shoud call this in Application class
-```
+```java
 DialogBuilderConfig.builder()
-		.setColor(ContextCompat.getColor(getApplicationContext(), R.color.colorPrimaryDark))
+		.setColor(ContextCompat.getColor(getApplicationContext(),R.color.colorPrimaryDark))
                 .setTitle("Dear user")
                 .setActionFontPath("fonts/irsans_m.ttf")
                 .setTitleFontPath("fonts/irsans_b.ttf")
