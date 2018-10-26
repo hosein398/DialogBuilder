@@ -1,6 +1,6 @@
 # Dialog Builder
 
-DialogBuilder is simple library for show easily custom AlertDialog and BottomSheet in android. 
+DialogBuilder is a simple library to show easily custom AlertDialog and BottomSheet in android. 
 
 ## Features
 
