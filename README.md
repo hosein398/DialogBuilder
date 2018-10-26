@@ -2,7 +2,13 @@
 
 DialogBuilder is simple library for show easily custom AlertDialog and BottomSheet in android. 
 
-[![EditText Dialog](https://www.oxima.ir/resources/images/articles/source_hub/dialogbuilder1.jpg "EditText Dialog")](https://www.oxima.ir/resources/images/articles/source_hub/dialogbuilder1.jpg "EditText Dialog")
+||
+| :---: |:---:|
+| [![EditText Dialog](https://www.oxima.ir/resources/images/articles/source_hub/dialogbuilder1.jpg)](http://oxima..ir)    | [![RecyclerView Dialog](https://www.oxima.ir/resources/images/articles/source_hub/dialogbuilder2.jpg)](http://fvcproductions.com)
+
+||
+| :---: |:---:|
+| [![Normal Dialog](https://www.oxima.ir/resources/images/articles/source_hub/dialogbuilder5.jpg)](http://oxima..ir)    | [![EditText Dialog](https://www.oxima.ir/resources/images/articles/source_hub/dialogbuilder4.jpg)](http://fvcproductions.com)
 
 ## Features
 
