@@ -10,9 +10,6 @@ public class Utilities {
 
     private static final Hashtable<String, Typeface> typefaceCache = new Hashtable<>();
 
-    public static int dp(int px) {
-        return (int) (px / Resources.getSystem().getDisplayMetrics().density);
-    }
 
     public static Typeface getTypeface(Context context,String assetPath) {
         synchronized (typefaceCache) {
