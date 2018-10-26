@@ -1,11 +1,13 @@
 # Dialog Builder
 
-DialogBuilder is a simple library to show easily custom AlertDialog and BottomSheet in android. 
+DialogBuilder is simple library for show easily custom AlertDialog and BottomSheet in android. 
+
+[![EditText Dialog](https://www.oxima.ir/resources/images/articles/source_hub/dialogbuilder1.jpg "EditText Dialog")](https://www.oxima.ir/resources/images/articles/source_hub/dialogbuilder1.jpg "EditText Dialog")
 
 ## Features
 
 * MinSdk 14
-* set font for title,message and button
+* set font for title,message and button[![EditText Dialog]
 * set color for title and button
 * set cancelable dialog
 * add custom view in dialog
@@ -80,7 +82,7 @@ dialogBuilder.setCustomView(editText); // Your custom view
 You can change default config by DialogBuilderConfig , you shoud call this in Application class
 ```
 DialogBuilderConfig.builder()
-		.setColor(ContextCompat.getColor(getApplicationContext(),R.color.colorPrimaryDark))
+		.setColor(ContextCompat.getColor(getApplicationContext(), R.color.colorPrimaryDark))
                 .setTitle("Dear user")
                 .setActionFontPath("fonts/irsans_m.ttf")
                 .setTitleFontPath("fonts/irsans_b.ttf")
@@ -96,4 +98,3 @@ See also the list of [projects](https://github.com/hosein398?tab=repositories).
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
-
