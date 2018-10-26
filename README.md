@@ -80,8 +80,7 @@ dialogBuilder.setCustomView(editText); // Your custom view
 You can change default config by DialogBuilderConfig , you shoud call this in Application class
 ```
 DialogBuilderConfig.builder()
-				.setColor(ContextCompat.getColor(getApplicationContext(),
-							   R.color.colorPrimaryDark))
+		.setColor(ContextCompat.getColor(getApplicationContext(),R.color.colorPrimaryDark))
                 .setTitle("Dear user")
                 .setActionFontPath("fonts/irsans_m.ttf")
                 .setTitleFontPath("fonts/irsans_b.ttf")
