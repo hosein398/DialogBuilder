@@ -5,7 +5,7 @@ DialogBuilder is simple library for show easily custom AlertDialog and BottomShe
 ## Features
 
 * MinSdk 14
-* set font for title,message and button[![EditText Dialog]
+* set font for title,message and button
 * set color for title and button
 * set cancelable dialog
 * add custom view in dialog
