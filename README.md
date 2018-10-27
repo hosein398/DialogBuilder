@@ -2,7 +2,8 @@
 
 DialogBuilder is simple library for show easily custom AlertDialog and BottomSheet in android. 
 
-<img align="top" width="40%" src="https://www.oxima.ir/resources/images/articles/source_hub/dialogbuilder1.jpg">
+<img align="left" width="40%" src="https://www.oxima.ir/resources/images/articles/source_hub/dialogbuilder1.jpg">
+<img align="top" width="40%" src="https://www.oxima.ir/resources/images/articles/source_hub/dialogbuilder2.jpg">
 
 ## Features
 
